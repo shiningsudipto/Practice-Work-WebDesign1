@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;700&family=Philosopher:wght@400;700&display=swap');
+        html{
+            font-family: 'Philosopher', sans-serif;
+        }
+        body{
+            background-color: black;
+
+
+        }
+        .content-body{
+            background-color: rgb(26, 26, 26);
+            color: white;
+            max-width: 80%;
+            margin: 60px auto;
+
+        }
+        h3{
+            text-transform: uppercase;
+            padding-bottom: 20px;
+        }
+        p{
+            padding: 10px;
+            line-height: 20px;
+            letter-spacing: 2px;
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        header .h-logo{
+            height: 60px;
+        }
+        header nav{
+
+        }
+        header nav ul{
+            list-style: none;
+            display: flex;
+            margin-top: 20px;
+
+        }
+        header nav ul li{
+            display: inline-block;
+        }
+        header nav ul li a{
+            text-decoration: none;
+            color: rgb(231, 231, 231);
+            padding: 20px;
+            margin-top: 10px 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+
+        }
+        header nav ul li a:hover{
+            border: 1px solid #2F9A66;
+            border-radius: 15px;
+        }
+
+        .content{
+            display: flex;
+
+        }
+        .content .posts{
+            display: flex;
+            flex: 4;
+            flex-wrap: wrap;
+            padding: 5px;
+
+        }
+        .content .posts .post{
+            margin: 20px;
+        }
+        .content .posts .post img{
+            width: 350px;
+        }
+        .content .sidebar{
+            flex: 1;
+            padding: 5px;
+            
+        }
+        .content .sidebar .input{
+            width: 90%;
+            padding: 8px;
+            margin-bottom: 8px;
+            
+        }
+        .content .sidebar .submit{
+            width: 100%;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 40px;
+        }
+        .content .sidebar aside ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .content .sidebar aside ul li{
+            margin-bottom: 10px;
+            
+        }
+        .content .sidebar aside ul li a{
+            text-decoration: none;
+            color: #2F9A66;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-body">
+        <header>
+            <img class="h-logo" src="img/icon2.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Document</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="posts">
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/nature1.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/nature2.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/nature3.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/nature4.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/ghost3.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/ghost2.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/cute3.jpg" alt="">
+                </div>
+                <div class="post">
+                    <h3>Post</h3>
+                    <img src="img/cute4.jpg" alt="">
+                </div>
+
+             </div>
+
+
+            <div class="sidebar">
+                <aside>
+                    <h3>Log In</h3>
+                    <input class="input" type="email" placeholder="e-mail"><br>
+                    <input class="input" type="password" placeholder="password">
+                    <input class="submit" type="submit">
+                    <h3>Profile</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorem officia recusandae quidem. Voluptate ratione minus quo, necessitatibus harum iste dignissimos delectus corporis eos voluptates?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur accusamus fuga, vel magnam cumque?</p>
+                <h3>Archive</h3>
+                <ul>
+                    <li><a href="#">New Post</a></li>
+                    <li><a href="#">New Post2</a></li>
+                    <li><a href="#">New Post3</a></li>
+                    <li><a href="#">New Post4</a></li>
+                    <li><a href="#">New Post5</a></li>
+                </ul>
+                
+                </aside>
+            </div>
+        </div>
+
+
+
+        <p>all right reserved by shining sudipto @ 2022</p>
+
+
+    </div>
+</body>
+</html>
